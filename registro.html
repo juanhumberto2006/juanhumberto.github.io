@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro e iniciar sesion.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="fa fa-home"></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Buscar">
+                        <span class="fa fa-search" ></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Artistas">
+                        <span class="fa fas fa-book"></span>
+                        <span>Artistas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Music">
+                        <span class="fa fas fa-book"></span>
+                        <span>Musica</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <p style="color: aliceblue; font-size: 25px; font-family: cursive;">Redes Sociales</p>
+                </li>
+                <li>
+                    <a href="">
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>Youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span>Tik Tok</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+       
+
+
+    </div>
+
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-buttons">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+              
+                <input type="text" class="custom-input" placeholder="Escribe aquí..." id="Buscar">
+
+               
+            </div>
+
+            <div class="navbar">
+               
+
+                <li>
+                    <a href="registro.html" style="color: white; font-size: large;">Regístrate</a>
+                </li>
+            </ul>
+            <button type="button" onclick="irALogin()">Iniciar sesión</button>
+            </div>
+        </div>
+    </div>
+   
+    <div class="registro" id="form-registro" action="#" method="post">
+        <h1>Regístrate</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Registrarme</button>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
